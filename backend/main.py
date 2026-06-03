@@ -7,7 +7,9 @@ app = FastAPI()
 # CORS middleware
 origins = [
     "http://localhost:5173",
-    "https://adaptiq-a3.vercel.app",  # Update with your actual Vercel URL
+    "https://adaptiq-frontend.vercel.app",
+    "https://adaptiqfrontend.vercel.app",
+    "https://adaptiq-a3.vercel.app",
 ]
 
 app.add_middleware(
